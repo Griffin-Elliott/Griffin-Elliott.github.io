@@ -77,9 +77,24 @@ header, footer {
 
 
 
-/* Imported Typfaces */
+/* Imported Typefaces */
 
+@font-face {
 	
+	font-family:Montserrat;
+	src: url(..fonts/montserrat-regular.ttf) format ('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+	
+	font-family: Montserrat;
+	src: url(../fonts/montserrat-regular.ttf) format:('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 
 /* Typography Styles */
