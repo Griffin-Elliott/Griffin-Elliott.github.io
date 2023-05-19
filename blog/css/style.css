@@ -88,13 +88,33 @@ header {
 	border-style: solid;
 	border-color: black;
 	font-family: Ultra, serif;
+	border-radius: 1rem;
 }
 
+
+
 ul{
-	list-style: none;
-	
+	list-style-type: none;
+	margin: 0rem;
+	padding: 0rem;
+	overflow: hidden;
+}
+
+li{
+	display: inline;
+	width: 1rem;
+	word-spacing: 4rem;
+	font-size: 1.5rem;
+	margin-left: 3rem;
+	color:#021691;
 	
 }
+
+.solid{
+	
+}
+
+a:link {text-decoration: none;}
 
 .main-section{
 	display:flex;
@@ -131,9 +151,23 @@ figcaption{
 
 .sidebar img{
 	width: 30%;
+	
 }
 
 .sidebar p{
 	text-align: block;
 	font-size: 0.75rem;
+}
+
+.email{
+	text-align: left;
+	float: left;
+	display: flex;
+
+}
+
+.attribution{
+	text-align: right;
+	float: right;
+
 }
