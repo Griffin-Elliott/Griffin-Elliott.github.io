@@ -48,4 +48,92 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+@font-face {
+	
+	font-family: Montserrat;
+	src: url(../fonts/sans-serif/montserrat-regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	
+	font-family: Ultra;
+	src: url(../fonts/serif/ultra-regular.ttf) format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+h2,h3 {
+	font-family: Montserrat, sans-serif;
+	
+}
+
+
+header {
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	font-size: 1.75rem;
+	rotate: -5deg;
+	word-spacing: 1rem;
+	
+	
+}
+
+.highlight{
+	color: ivory;
+	background-color: red;
+	border-style: solid;
+	border-color: black;
+	font-family: Ultra, serif;
+}
+
+ul{
+	list-style: none;
+	
+	
+}
+
+.main-section{
+	display:flex;
+	flex: 3;
+	width: 100%;
+}
+
+.main-section img{
+	float: left;
+}
+
+.main-section p{
+
+}
+
+.photorow{
+ float: left;
+ width: 15%;
+ padding: 1rem;
+}
+
+
+.subsection::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+figcaption{
+	background-color: #F2EC98;
+	line-height: 2rem;
+	
+}
+
+.sidebar img{
+	width: 30%;
+}
+
+.sidebar p{
+	text-align: block;
+	font-size: 0.75rem;
+}
