@@ -65,6 +65,10 @@
 }
 
 
+h2{
+	position: absolute;
+	margin-left: 1rem;
+}
 
 h2,h3 {
 	font-family: Montserrat, sans-serif;
@@ -78,13 +82,14 @@ header {
 	font-size: 1.75rem;
 	rotate: -5deg;
 	word-spacing: 1rem;
+	text-shadow: 2rem black;
 	
 	
 }
 
 .highlight{
 	color: ivory;
-	background-color: red;
+	background-color: #9A1818;
 	border-style: solid;
 	border-color: black;
 	font-family: Ultra, serif;
@@ -96,10 +101,11 @@ header {
 
 ul{
 	list-style-type: none;
-	margin: 0rem;
+	margin: 1.5rem;
 	padding: 0rem;
 	overflow: hidden;
 	word-spacing: 5rem;
+	text-align: left;
 }
 
 li{
@@ -135,13 +141,24 @@ a:link {text-decoration: none;}
 	
 }
 
-.main-section img{
+.article-image{
+	display: block;
 	float: left;
+	padding: 0.5rem;
+	margin-left: 0.5rem;
+	margin-top: 3rem;
+	margin-right: 0.5rem;
+}
+
+.para1{
+	margin-top: 3.15rem;
+	
 }
 
 .main-section p{
 	font-size: 1rem;
 	text-align: left;
+	margin-right: 2rem;
 
 }
 
@@ -149,11 +166,13 @@ time{
 	font-style: italic;
 }
 
-.photorow{
+.photorow {
+ display: inline;
+ column-gap: 0.5rem;
  width: 19%;
  float: left ;
- padding: 1rem;
- column-gap: 2rem;
+ margin-left: 0rem;
+ margin-right: 5.5rem;
 }
 
 
@@ -177,12 +196,13 @@ figcaption{
 	flex-direction: column;
 	width: 100%;
 	text-align: right;
+	
 
 }
 
 .sidebar img{
 	width: 100%;
-	align-content: right;
+	
 	
 	
 }
@@ -206,7 +226,8 @@ button{
 	font-family: Ultra, serif;
 	color: white;
 	background-color: #2E628F;
-	
+	border-radius: 1rem;
+	margin-top: 2rem;
 }
 
 .expand{
@@ -218,6 +239,7 @@ button{
 	text-align: left;
 	float: left;
 	display: flex;
+	
 
 }
 
