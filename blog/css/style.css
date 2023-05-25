@@ -114,6 +114,14 @@ li{
 
 .blog{
 	text-decoration: line-through;
+	rotate: -5deg;
+	
+}
+
+.solid2{
+	width: 21rem;
+	height: 0.05rem;
+	background-color: black;
 	
 }
 
@@ -132,15 +140,20 @@ a:link {text-decoration: none;}
 }
 
 .main-section p{
-	font-size: 0.90rem;
+	font-size: 1rem;
+	text-align: left;
 
 }
 
+time{
+	font-style: italic;
+}
+
 .photorow{
- width: 15%;
- padding: 2rem;
+ width: 19%;
  float: left ;
- display: inline;
+ padding: 1rem;
+ column-gap: 2rem;
 }
 
 
@@ -177,20 +190,29 @@ figcaption{
 .sidebar p{
 	font-size: 0.75rem;
 	float: right;
+	text-align: left;
 
 	
 }
 
 .sidebar h3{
-	text-align: right;
+	text-align: left;
 	float: right;
 }
 
-.button{
-	font-size: 4rem;
-	padding: 4rem;
+button{
+	font-size: 1.5rem;
+	padding: 1.5rem;
+	font-family: Ultra, serif;
+	color: white;
+	background-color: #2E628F;
 	
 }
+
+.expand{
+	font-size: 0.5rem;
+}
+
 
 .email{
 	text-align: left;
